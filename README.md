@@ -13,7 +13,7 @@ Sample Program For Charter Interview
        Authentication as the method has @RolesAllowed for "ADMIN".
        calls the stateless EJB from with in the GET method.
 ## Technologies Used
-  1) RESTEasy as it complies with JBOSS
-  2) EJB 3.1
-  3) Java 1.7
-  4) Tested on WildFly which is a JBOSS flavor but can be deployed in JBOSS AS 7
+  1. RESTEasy as it complies with JBOSS
+  2. EJB 3.1
+  3. Java 1.7
+  4. Tested on WildFly which is a JBOSS flavor but can be deployed in JBOSS AS 7
