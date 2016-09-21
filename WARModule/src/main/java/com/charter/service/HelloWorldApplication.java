@@ -9,7 +9,8 @@ import javax.ws.rs.core.Application;
 
 
 @ApplicationPath("/*")
-public class HelloWorldApplication extends Application{
+public class HelloWorldApplication extends Application
+{
 	   private Set<Class<?>> classes = new HashSet<Class<?>>();
 
 	public Set<Class<?>> getClasses() {
@@ -21,6 +22,7 @@ public class HelloWorldApplication extends Application{
 	}
 
 	public HelloWorldApplication(){
+		classes.add(SecurityInterceptor.class);
 		classes.add(Hello.class);
 	}
 }

@@ -4,6 +4,7 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+    
     <servlet-mapping>
         <servlet-name>com.charter.service.HelloWorldApplication</servlet-name>
         <url-pattern>/*</url-pattern>

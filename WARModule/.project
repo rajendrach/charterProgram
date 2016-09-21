@@ -3,6 +3,7 @@
 	<name>WARModule</name>
 	<comment></comment>
 	<projects>
+		<project>JARModule</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

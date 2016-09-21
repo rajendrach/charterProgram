@@ -15,6 +15,11 @@ import javax.ejb.StatefulTimeout;
 public class HelloStatefulBean implements Serializable {
 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = -8905973571026450268L;
+	
+	/**
      * Default constructor. 
      */
 	private int counter =0;
